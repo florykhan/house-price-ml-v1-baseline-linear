@@ -2,5 +2,5 @@ venv/
 __pycache__/
 .ipynb_checkpoints/
 data/*.csv
-"Useful Notes"/
+Useful\ Notes/
 .DS_Store
