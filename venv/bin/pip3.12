@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/Users/florykhan/Documents/ML Projects/House-Price-Prediction-ML/venv/bin/python3.12" "$0" "$@"
+'''exec' "/Users/florykhan/Documents/ML Projects/house-price-ml-v1-baseline-linear/venv/bin/python3.12" "$0" "$@"
 ' '''
 # -*- coding: utf-8 -*-
 import re
