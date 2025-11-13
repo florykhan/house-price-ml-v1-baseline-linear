@@ -30,8 +30,8 @@ house-price-ml-v1-baseline-linear/
 ├── src/ # Placeholder for reusable helper scripts (empty in v1)
 │
 ├── .gitignore
-├── requirements.txt
-└── README.md
+├── README.md
+└── requirements.txt
 ```
 > 🗒️ **Note:**  
 > The `data/` and `src/` folders are intentionally left empty in this version.  
@@ -46,7 +46,6 @@ house-price-ml-v1-baseline-linear/
 - **Size:** ~20,000 samples, 8 numerical + 1 categorical feature  
 - **Target:** `median_house_value`
 
-<p align="center">
 | Feature | Description |
 |----------|--------------|
 | `longitude`, `latitude` | geographic coordinates |
@@ -56,7 +55,6 @@ house-price-ml-v1-baseline-linear/
 | `median_income` | median income (in tens of thousands of USD) |
 | `ocean_proximity` | categorical location label |
 | `median_house_value` | target (house price, in USD) |
-</p>
   
 ---
 
