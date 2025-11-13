@@ -20,19 +20,23 @@ This version uses the **Normal Equation** (closed-form solution) for Linear Regr
 
 house-price-ml-v1-baseline-linear/
 │
-├── data/
-│ └── housing.csv # California housing dataset
+├── data/ # Dataset directory (kept empty intentionally for privacy / size)
+│ └── housing.csv # Place your dataset here
 │
 ├── notebooks/
 │ ├── 01_exploration.ipynb # Exploratory Data Analysis (EDA)
 │ └── 02_training.ipynb # Model training & evaluation
 │
-├── src/ # Reusable helper code (empty for this version)
+├── src/ # Placeholder for reusable helper scripts (empty in v1)
 │
 ├── .gitignore
 ├── requirements.txt
 └── README.md
 
+> 🗒️ **Note:**  
+> The `data/` and `src/` folders are intentionally left empty in this version.  
+> - `data/` — add your own copy of `housing.csv` if running locally.  
+> - `src/` — will contain helper functions in later versions.
 
 ---
 
@@ -98,9 +102,49 @@ Key insight: **`median_income`** shows the strongest positive correlation with h
 - A **clean baseline** provides a solid reference point for further experimentation.  
 - **Median income** is the most informative predictor in this dataset.  
 - Performance can be improved through:
-- Feature transformations  
-- Nonlinear terms  
-- Regularization and scaling
+  - Feature transformations  
+  - Nonlinear terms  
+  - Regularization and scaling
+
+---
+
+## 🧰 Run Locally
+
+You can run this project on your machine using **Python 3.11** and `venv`.
+
+### 1️⃣ Clone the repository
+```bash
+git clone git@github.com:florykhan/house-price-ml-v1-baseline-linear.git
+cd house-price-ml-v1-baseline-linear
+```
+
+### 2️⃣ Create and activate a virtual environment
+```bash
+python3 -m venv venv
+source venv/bin/activate      # (on macOS/Linux)
+venv\Scripts\activate         # (on Windows)
+```
+
+### 3️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4️⃣ Add the dataset
+Place `housing.csv` inside the `data/` folder:
+```bash
+house-price-ml-v1-baseline-linear/data/housing.csv
+```
+
+### 5️⃣ Run the notebooks
+Launch Jupyter and open the notebooks:
+```bash
+jupyter notebook
+```
+
+Then run:
+- `01_exploration.ipynb` — data exploration
+- `02_training.ipynb` — model training & evaluation
 
 ---
 
@@ -139,4 +183,4 @@ MIT License — feel free to use and modify with attribution.
 ## 👤 Author
 **Ilian Khankhalaev**  
 _BSc Computing Science, Simon Fraser University_  
-📍 Vancouver, BC  |  [`florykhan@gmail.com`]  |  [`GitHub`](https://github.com/florykhan)  |  [`LinkedIn`](https://www.linkedin.com/in/ilian-khankhalaev/)
+📍 Vancouver, BC  |  [📧florykhan@gmail.com](mailto:florykhan@gmail.com)  |  [💼GitHub](https://github.com/florykhan)  |  [🔗LinkedIn](https://www.linkedin.com/in/ilian-khankhalaev/)
