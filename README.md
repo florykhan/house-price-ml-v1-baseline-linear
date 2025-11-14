@@ -61,7 +61,7 @@ house-price-ml-v1-baseline-linear/
 
 ## 🧭 Workflow Summary
 
-### **1️⃣ Exploratory Data Analysis (01_exploration.ipynb)**
+### **1️⃣ Exploratory Data Analysis ([`01_exploration.ipynb`](notebooks/01_exploration.ipynb))**
 - Inspected schema, data types, and null values  
 - Visualized distributions using histograms  
 - Computed **correlation matrix** to identify strong predictors of price  
@@ -71,7 +71,7 @@ Key insight: **`median_income`** shows the strongest positive correlation with h
 
 ---
 
-### **2️⃣ Model Training (02_training.ipynb)**
+### **2️⃣ Model Training ([`02_training.ipynb`](notebooks/02_training.ipynb))**
 - Selected baseline features:
 ["median_income", "housing_median_age", "latitude", "longitude", "ocean_proximity"]
 
