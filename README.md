@@ -30,6 +30,7 @@ house-price-ml-v1-baseline-linear/
 ├── src/ # Placeholder for reusable helper scripts (empty in v1)
 │
 ├── .gitignore
+├── LICENSE
 ├── README.md
 └── requirements.txt
 ```
@@ -186,6 +187,7 @@ Planned enhancements:
 
 ## 🧾 License
 MIT License — feel free to use and modify with attribution.
+See the [`LICENSE`](./LICENSE) file for full details.
 
 ---
 
