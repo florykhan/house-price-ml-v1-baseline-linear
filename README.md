@@ -137,8 +137,13 @@ venv\Scripts\activate      # (on Windows)
 ```
 
 ### 3️⃣ Install dependencies
+Depending on your Python setup, one of the following will work:
 ```bash
 pip install -r requirements.txt
+```
+or
+```bash
+pip3 install -r requirements.txt
 ```
 
 ### 4️⃣ Add the dataset
