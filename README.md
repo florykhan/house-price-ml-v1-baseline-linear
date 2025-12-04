@@ -124,9 +124,15 @@ Key insight: **`median_income`** shows the strongest positive correlation with h
 You can run this project on your machine using **Python 3.11** and `venv`.
 
 ### 1️⃣ Clone the repository
+**HTTPS (recommended for most users):**
 ```bash
-git clone git@github.com:florykhan/house-price-ml-v1-baseline-linear.git
-cd house-price-ml-v1-baseline-linear
+git clone https://github.com/florykhan/house-price-ml-v2.git
+cd house-price-ml-v2
+```
+**SSH (for users who have SSH keys configured):**
+```bash
+git clone git@github.com:florykhan/house-price-ml-v2.git
+cd house-price-ml-v2
 ```
 
 ### 2️⃣ Create and activate a virtual environment
