@@ -161,7 +161,7 @@ Then run:
 
 ## 🚀 Next Steps — Version 2
 
-Future development will continue in [`house-price-ml-v2-feature-engineering`](https://github.com/florykhan/house-price-ml-v2-feature-engineering)
+Future development will continue in [`house-price-ml-v2`](https://github.com/florykhan/house-price-ml-v2)
 
 Planned enhancements:
 - Implement **Gradient Descent** for Linear Regression (custom training loop)  
