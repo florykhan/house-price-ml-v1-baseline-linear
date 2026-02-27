@@ -14,6 +14,9 @@ The goal of this version is to:
 
 This version uses the **Normal Equation** (closed-form solution) for Linear Regression as implemented in `scikit-learn`.
 
+![Baseline workflow — EDA and Linear Regression](./data/house-price-v1.png)
+_Exploratory notebooks (schema, correlation, distributions) and Linear Regression trained with the Normal Equation_
+
 ---
 
 ## 🧱 Repository Structure
