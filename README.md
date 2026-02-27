@@ -2,7 +2,7 @@
 
 This repository implements a **baseline machine learning pipeline** for predicting median house prices in California. It forms the **first version (v1)** of a multi-stage project focused on improving model performance through iterative experimentation.
 
-➡️ [`Second version (v2)`](https://github.com/florykhan/house-price-ml-v2?tab=readme-ov-file
+➡️ [`Second version (v2)`](https://github.com/florykhan/house-price-ml-v2?tab=readme-ov-file)
 
 ---
 
